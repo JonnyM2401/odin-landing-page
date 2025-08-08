@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+
+header,
+.contentBlock,
+footer {
+    padding: 0 100px
+}
+
+header {
+    color: #F9FAF8;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.headerLinks {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.contentBlock {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border: 1px solid red;
+}
+
+.one {
+    background-color: #1f2937;
+    color: #F9FAF8;
+}
+
+.contentBlockLeft {
+    flex: 1 1 0;
+}
+
+.contentBlockRight {
+    flex: 1 1 0;
+    display: flex;
+    justify-content: center;
+    align-self: stretch;
+}
+
+.itemContainer {
+    width: 100%;
+    height: 100%;
+    background-color: #E5E7EB;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.subtext {
+    font-size: 18px;
+    opacity: 80%;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-style: none;
+    border-radius: 5px;
+    padding: 4px 20px;
+    margin-top: 12px;
+}
+
+.two {
+
+}
+
+.three {
+
+}
+
+.four {
+
+}
