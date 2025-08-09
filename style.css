@@ -8,7 +8,7 @@
 header,
 .contentBlock,
 footer {
-    padding: 0 100px
+    padding: 0 12%;
 }
 
 header {
@@ -22,12 +22,14 @@ header {
 }
 
 .logo {
-    font-size: 20px;
-    font-weight: 800;
+    font-size: 36px;
+    font-weight: 900;
 }
 
 .headerLinks {
     display: flex;
+    font-size: 18px;
+    color: #e5e7eb;
     gap: 16px;
     align-items: center;
 }
@@ -35,14 +37,15 @@ header {
 .contentBlock {
     display: flex;
     align-items: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    border: 1px solid red;
+    padding-top: 128px;
+    padding-bottom: 128px;
+    /* border: 1px solid red; */
 }
 
 .one {
     background-color: #1f2937;
     color: #F9FAF8;
+    gap: 100px;
 }
 
 .contentBlockLeft {
@@ -67,30 +70,82 @@ header {
 }
 
 h1 {
-    font-size: 32px;
+    font-size: 48px;
     font-weight: 900;
 }
 
 .subtext {
     font-size: 18px;
-    opacity: 80%;
+    color: #e5e7eb;
+    /* opacity: 80%; */
 }
 
 button {
     background-color: #3882F6;
     color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 700;
     border-style: none;
     border-radius: 5px;
-    padding: 4px 20px;
+    padding: 8px 20px;
     margin-top: 12px;
 }
 
 .two {
+    flex-direction: column;
+    align-items: stretch;
+    padding-top: 80px;
+}
 
+h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 24px;
+}
+
+.card {
+    max-width: 250px;
+}
+
+.border {
+    border: 5px solid #3882F6;
+    border-radius: 25px;
+    aspect-ratio: 1/1;
+    margin-bottom: 12px;
+}
+
+.info {
+    text-align: center;
+    font-size: 18px;
 }
 
 .three {
+    background-color: #e5e7eb;
+    padding-left: 25%;
+    padding-right: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
 
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.quoteSource {
+    text-align: end;
+    font-weight: 700;
+    font-size: 18px;
 }
 
 .four {
