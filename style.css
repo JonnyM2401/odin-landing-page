@@ -148,10 +148,6 @@ h2 {
     font-size: 18px;
 }
 
-.four {
-
-}
-
 .callToAction{
     background-color: #3882F6;
     border-radius: 25px;
@@ -160,7 +156,7 @@ h2 {
     padding: 64px 128px;
 }
 
-.contentBlockLeft {
+.callToAction .contentBlockLeft {
     flex: 3 1 0;
 }
 
@@ -189,4 +185,15 @@ h2 {
     border-color: #F9FAF8;
     border: solid;
     padding: 12px 40px;
+}
+
+footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    padding: 48px;
+    font-size: 24px;
+    font-weight: 400;
 }
